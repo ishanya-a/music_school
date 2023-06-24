@@ -1,0 +1,131 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'assets/images/favicon.png' %}" rel="icon" type="image/png">
+    <title>Trems and condition page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'assets/css/icons.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/uikit.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/tailwind.css' %}">
+
+    <style>
+        .container{
+            transform: translate(-20%, 0%);
+            background-color: #f0f0f0;
+            padding: 20px;
+            width: 800px;
+            text-align: center;
+            .ptag1{
+                text-align: justify;
+                color: rgb(44, 43, 43);
+            }
+        }
+        a {
+            color: #007bff; /* Link color */
+            text-decoration: none; /* Remove underline */
+        }
+
+        /* Link styles on hover */
+        a:hover {
+            text-decoration: underline; /* Add underline on hover */
+        }
+
+        /* Visited link styles */
+        a:visited {
+            color: #9c27b0; /* Visited link color */
+        }
+
+        /* Active link styles */
+        a:active {
+        color: #ff5722; /* Active link color */
+        }
+    </style>
+
+</head>
+
+<body class="bg-gray-100">
+
+    <div>
+        <div class="lg:p-12 max-w-md max-w-xl lg:my-0 my-12 mx-auto p-6 space-y-">
+            <div class="container">
+                <h1 class="lg:text-3xl text-xl font-semibold mb-6"> Music School</h1>
+                <div>
+                    <h4 class="lg:text-xl text-xl font-semibold"> Terms & Conditions</h4>
+                    <p class="ptag1">
+
+                        Please read these terms and conditions ("Terms") carefully before using our music app ("App"). These Terms constitute a legal agreement between you ("User" or "you") and Music School ("Company," "we," or "us") regarding your use of the App.
+                        <br/>
+                        <b>Acceptance of Terms</b>
+                        <br/>
+                        By accessing or using the App, you agree to be bound by these Terms. If you do not agree with these Terms, you may not use the App.
+                        <br/>
+                        <b>User Accounts</b><br/>
+                        a. Registration: To use certain features of the App, you may be required to create a user account. You must provide accurate and complete information during the registration process.
+                        <br/>
+                        b. Account Security: You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. Notify us immediately of any unauthorized use of your account or any other breach of security.
+                        <br/>
+                        <b>Content Usage</b><br/>
+                        a. Streaming and Downloading: The App allows you to stream and, in certain cases, download music content. You may use such content solely for personal, non-commercial purposes in compliance with these Terms.
+                        b. Prohibited Usage: You may not use the App's content for any illegal or unauthorized purposes, including but not limited to unauthorized distribution, public performance, or commercial exploitation.
+                        <br/>
+                        <b>User-Generated Content</b><br/>
+                        a. Responsibility: Any user-generated content, such as comments, reviews, or playlists, is the sole responsibility of the respective users. The Company does not endorse, monitor, or guarantee the accuracy or appropriateness of such content.
+                        b. Rights and Moderation: By submitting user-generated content, you grant the Company a non-exclusive, worldwide, royalty-free license to use, reproduce, modify, and distribute the content. The Company reserves the right to moderate, modify, or remove any user-generated content that violates these Terms or applicable laws.
+                        <br/>
+                        <b>Governing Law and Jurisdiction</b><br/>
+                        These Terms shall be governed by and construed in accordance with the laws. Any disputes arising from or relating to these Terms or the use of the App shall be subject to the exclusive jurisdiction of the courts.
+                    </p>
+                    <hr/>
+                    <h4 class="lg:text-xl text-xl font-semibold"> Privacy ploicy</h4>
+                    <p class="ptag1">
+                        We collect personal info like name, email, username, and password for user registration. 
+                        Usage info helps us improve the app. Device info like type, OS, and network aids optimization. 
+                        We don't sell personal data. We may share it with trusted partners for app-related services. 
+                        By using the app, you consent to data collection and processing. We implement security measures to protect personal info. 
+                        We comply with applicable privacy laws. If you have any concerns, contact us. Enjoy the nostalgic music experience!
+                        
+                    </p>
+                    <hr/>
+                    <h4 class="lg:text-xl text-xl font-semibold"> Help</h4>
+                    <p class="">
+                        <a href="mailto:user@gmail.com">user@gmail.com</a>
+                    </p>
+                    <hr/>
+                    <h4 class="lg:text-xl text-xl font-semibold"> Terms & Conditions</h4>
+                    <p class="ptag1">
+
+                        Welcome to Music school, 
+                        <br/>the ultimate music app for all fans of the 80s and 90s music era. We are passionate about bringing back the nostalgia and iconic tunes that defined those decades.
+
+                        Our mission is to provide a seamless and immersive music experience, giving you access to a vast library of hit songs, artist profiles, curated playlists, and much more. Whether you want to relive your favorite memories or discover hidden gems, our app has got you covered.
+
+                        At Music school, we strive to deliver an intuitive and user-friendly interface, allowing you to easily search, stream, and create personalized playlists. We handpick the finest tracks and collaborate with renowned DJs and music enthusiasts to curate exclusive playlists tailored to your tastes.
+
+                        We value your privacy and ensure that your personal information is protected and handled with care. We comply with all applicable data protection laws and maintain robust security measures to safeguard your data.
+
+                        Join our community of music lovers and embark on a journey through the vibrant sounds of the 80s and 90s. Let the melodies transport you to an unforgettable era of music history.
+
+                        Thank you for choosing Music school. Start exploring the world of timeless music today!
+                    </p>
+                </div>
+                <br/>
+                <div class="capitalize flex font-semibold hidden lg:block my-2 space-x-3 text-center text-sm">
+                        
+                    <a href="/signup" class="bg-pink-500 pink-500 px-6 py-3 rounded-md shadow text-white">Back</a>
+                </div>
+            </div>
+        </div>
+            
+
+    </div>
+
+</body>
+
+</html>

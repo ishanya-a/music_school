@@ -1,0 +1,61 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'assets/images/favicon.png' %}" rel="icon" type="image/png">
+    <title>Trending page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'assets/css/icons.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/uikit.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/tailwind.css' %}">
+
+    <style>
+        .container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #f0f0f0;
+            padding: 20px;
+            /* width: 400px;
+            height: 400px; */
+            text-align: center;
+            .ptag{
+                text-align: center;
+                color: black;
+            }
+        }
+    </style>
+
+</head>
+
+<body class="bg-gray-100">
+
+    <div>
+        <div class="lg:p-12 max-w-md max-w-xl lg:my-0 my-12 mx-auto p-6 space-y-">
+            <div class="container">
+                <h1 class="lg:text-3xl text-xl font-semibold mb-6"> Music School</h1>
+                <p class="ptag">
+                    Want to get into the <b><i>Music World</i></b> and showcase your talent then just join the app and get the most.<br/>
+                    I am sure you will enjoy it :-)
+                </p>
+                <br/>
+                <div class="capitalize flex font-semibold hidden lg:block my-2 space-x-3 text-center text-sm">
+                        
+                    <a href="/signup" class="bg-pink-500 pink-500 px-6 py-3 rounded-md shadow text-white">Back</a>
+                </div>
+            </div>
+        </div>
+            
+
+    </div>
+
+</body>
+
+</html>
